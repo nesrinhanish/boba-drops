@@ -6,6 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: aliceblue;
     color:rgb(1, 75, 194);
+<<<<<<< HEAD
 }
 
 img {
@@ -16,4 +17,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: aliceblue;
     color:rgb(23, 112, 255);
+=======
+>>>>>>> fb35069 (third commit)
 }
