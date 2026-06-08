@@ -5,6 +5,16 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: aliceblue;
-    color:rgb(1, 75, 194);
+    color:rgb(1, 75, 193);
     letter-spacing: 10cm;
 }
+
+a {
+    color: rgb(1, 75, 193);
+    /* Smooth change evry 2 seconds*/
+    transition: color 2s ease; 
+  }
+  
+  a:hover {
+    color: red;
+  }
