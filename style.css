@@ -7,16 +7,69 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-    background: aliceblue;
+    background: linear-gradient(1deg,rgb(168, 211, 248),azure);
     color:rgb(1, 75, 193);
 }
 
 a {
-    color: rgb(1, 75, 193);
-    /* Smooth change evry 2 seconds*/
+  color: rgb(1, 75, 193);
+    /* Smooth change every 2 seconds*/
     transition: color 2s ease; 
   }
   
   a:hover {
     color: red;
   }
+
+  header{ 
+    background-color: rgb(105, 162, 255);
+    color: aliceblue;
+    margin: 5px;
+    
+    }
+
+    div{
+      border: double 4.7px rgb(105, 162, 255);
+      margin: 10px;
+      padding: 5px;
+    }
+
+    .grid{
+      display: grid;
+      grid-template-areas: 
+      " a c"
+      " b c ";
+      gap: 10px;
+      margin: 30px;
+      background-color: beige;
+      border: solid;
+    }
+
+    .first{ 
+      grid-area:a;
+      background-color: azure;
+      color: rgb(255, 0, 0);
+      border: solid blue;
+    }
+
+    .second{ 
+      grid-area:b;
+      background-color: azure;
+      color: rgb(255, 0, 0);
+      border: solid blue;
+    }
+
+    .third{ 
+      grid-area:c;
+      background-color: azure;
+      border: solid blue;
+      color: rgb(255, 0, 0);
+    }
+
+    .box{ 
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      border: none;
+    }
