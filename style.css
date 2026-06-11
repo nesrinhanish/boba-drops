@@ -73,3 +73,27 @@ a {
       margin: 0px;
       border: none;
     }
+
+    .animated{
+animation: wobble 1s ease-in-out infinite alternate;
+    }
+    @keyframes wobble {
+      0%{transform: rotate(-20deg);}
+      100%{transform: rotate(20deg);}
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      border: solid;
+    }
+
+    .item {
+      background-color: cadetblue;
+      padding: 20px;
+      margin: 5px;
+      color: aliceblue;
+      border: solid;
+    }
